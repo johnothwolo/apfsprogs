@@ -3,6 +3,8 @@
 *.o
 *.a
 /apfsck/apfsck
+/apfsprobe/apfsprobe
 /mkapfs/mkapfs
 /apfs-snap/apfs-snap
 /tags
+.vscode/
