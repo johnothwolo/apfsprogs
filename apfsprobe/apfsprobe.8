@@ -1,0 +1,31 @@
+.\" apfsprobe.8 - manpage for apfsprobe
+.\"
+.\" Copyright (C) 2022 Ernesto A. Fernández <ernesto@corellium.com>
+.\"
+.TH apfsprobe 8 "October 2023" "apfsprogs 0.1"
+.SH NAME
+apfsprobe \- list the volumes in a container
+.SH SYNOPSIS
+.B apfsprobe
+.I device
+.SH DESCRIPTION
+.B apfsprobe
+is utlility that lists the container volumes in a container
+on the given 
+.IR device .
+
+.SH OPTIONS
+.TP
+.B \-v
+Print the version number of
+.B apfsprobe
+and exit.
+.SH REPORTING BUGS
+Please report bugs via email or, if preferred, file a github issue at
+\%https://github.com/eafer/apfsprogs/issues.
+.SH AUTHOR
+Written by Ernesto A. Fernández <ernesto@corellium.com>.
+.SH SEE ALSO
+.BR apfsck (8),
+.BR mkapfs (8),
+.BR apfs-snap (8)
